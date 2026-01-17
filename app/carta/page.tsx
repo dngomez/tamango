@@ -1,13 +1,73 @@
+"use client"
+
+import { cn } from "@/lib/utils"
 import { PRODUCT_LIST } from "../productos"
 import { Producto } from "./Producto"
+import { useRef } from "react"
+import { normalizeText } from "@/lib/normalizeText"
+import { useInView } from "react-intersection-observer"
+import { FaArrowCircleUp } from "react-icons/fa"
 
 export default function Page() {
   const carta = Object.groupBy(PRODUCT_LIST, (p) => p.category)
+  const categoryRefs = Object.keys(carta).reduce(
+    (acc, key) => ({
+      ...acc,
+      [normalizeText(key)]: useRef<HTMLDivElement>(null),
+    }),
+    {},
+  )
+
+  const scrollRef = useRef<HTMLDivElement>(null)
+
+  const { ref: buttonsRef, inView } = useInView({
+    /* Optional options */
+    threshold: 0,
+  })
 
   return (
     <div className="animate-appear">
+      <div ref={scrollRef}></div>
+      <div
+        ref={buttonsRef}
+        className="flex flex-row justify-between gap-2 mb-2"
+      >
+        {Object.keys(carta).map((category) => (
+          <button
+            key={category}
+            className={cn(
+              "flex flex-row gap-1 justify-center items-center grow",
+              "px-2 py-1 relative cursor-pointer bg-amber-800 text-light-fg",
+              "rounded-md transition-colors duration-300",
+              "hover:bg-light-fg hover:shadow-md hover:text-amber-800",
+            )}
+            onClick={() => {
+              if (
+                categoryRefs[
+                  normalizeText(category) as keyof typeof categoryRefs
+                  // @ts-ignore
+                ].current
+              ) {
+                categoryRefs[
+                  normalizeText(category) as keyof typeof categoryRefs
+                  // @ts-ignore
+                ].current.scrollIntoView({ behavior: "smooth" })
+              }
+            }}
+          >
+            {category}
+          </button>
+        ))}
+      </div>
+
       {Object.keys(carta).map((category) => (
-        <div key={category} className="mb-3">
+        <div
+          key={category}
+          ref={
+            categoryRefs[normalizeText(category) as keyof typeof categoryRefs]
+          }
+          className="mb-5"
+        >
           <h2 className="uppercase text-amber-800 text-center text-2xl tracking-widest underline mb-1">
             {category}
           </h2>
@@ -18,6 +78,20 @@ export default function Page() {
           </ul>
         </div>
       ))}
+
+      {!inView && (
+        <FaArrowCircleUp
+          className={cn(
+            "fixed bottom-3 right-3 text-amber-800 text-2xl animate-appear",
+            "cursor-pointer hover:text-teal-600 transition-colors",
+          )}
+          onClick={() => {
+            if (scrollRef.current) {
+              scrollRef.current.scrollIntoView({ behavior: "smooth" })
+            }
+          }}
+        />
+      )}
     </div>
   )
 }
