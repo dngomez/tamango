@@ -13,7 +13,7 @@ export default function Page() {
           </h2>
           <ul className="flex flex-col gap-2">
             {carta[category]!.map((product) => (
-              <Producto key={product.name} {...product} />
+              <Producto key={product.name} product={product} />
             ))}
           </ul>
         </div>

@@ -29,11 +29,11 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/tamango_logo.svg" sizes="any" />
       </head>
-      <body className="bg-light-bg">
+      <body className="bg-light-bg h-dvh flex flex-col">
         <Navbar />
         <main
           className={cn(
-            "px-4 md:px-10 mt-4",
+            "px-4 md:px-10 mt-4 grow flex justify-center items-center",
             geistSans.variable,
             geistMono.variable,
           )}

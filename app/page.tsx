@@ -1,5 +1,50 @@
-import Image from "next/image"
+import { cn } from "@/lib/utils"
+import { Dancing_Script } from "next/font/google"
+import { FaClock } from "react-icons/fa"
+import { FaLocationDot } from "react-icons/fa6"
+
+const dancingScript = Dancing_Script({
+  subsets: ["latin"],
+})
 
 export default function Home() {
-  return <div className="animate-appear">Hello World</div>
+  return (
+    <div className="animate-appear grow">
+      <div className="flex flex-col md:flex-row gap-4 md:gap-2">
+        <img
+          src="/cover.jpeg"
+          alt="Logo"
+          className="w-1/2 rounded-2xl order-2 md:order-1 mx-auto"
+        />
+        <div className="flex flex-col justify-center grow text-center gap-4 order-1 md:order-2">
+          <h1
+            className={cn(
+              "text-amber-800 text-4xl md:text-6xl font-extrabold tracking-widest mt-3",
+              dancingScript.className,
+            )}
+          >
+            Flores del Tamango
+          </h1>
+          <p className="text-center text-lg md:text-2xl">
+            Café y pastelería artesanal
+          </p>
+          <div className="flex flex-col gap-1 text-center text-lg md:text-2xl">
+            <h1 className="text-amber-800 text-xl md:text-3xl font-extrabold uppercase tracking-widest mt-3 flex flex-row gap-2 justify-center">
+              Nuestro Horario <FaClock />
+            </h1>
+            <p>Martes a Viernes</p>
+            <p>8:00 a 13:00 y 15:00 a 20:00</p>
+            <p>Sábado y Domingo</p>
+            <p>Horario continuo de 8:00 a 19:00</p>
+          </div>
+          <div className="flex flex-col gap-1 text-center text-lg md:text-2xl">
+            <h1 className="text-amber-800 text-xl md:text-3xl font-extrabold uppercase tracking-widest mt-3 flex flex-row gap-2 justify-center">
+              Ubicación <FaLocationDot />
+            </h1>
+            <p>Terminal de buses de Cochrane</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
 }
