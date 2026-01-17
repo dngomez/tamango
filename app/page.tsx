@@ -42,6 +42,17 @@ export default function Home() {
               Ubicación <FaLocationDot />
             </h1>
             <p>Terminal de buses de Cochrane</p>
+            <a
+              href="https://maps.app.goo.gl/DLNjj5L7U2LLAB4o7"
+              className={cn(
+                "flex flex-row gap-1 justify-center items-center",
+                "px-2 py-1 relative cursor-pointer",
+                "text-amber-800 hover:text-teal-600 transition-colors",
+              )}
+              target="_blank"
+            >
+              Ver en Google Maps
+            </a>
           </div>
         </div>
       </div>
