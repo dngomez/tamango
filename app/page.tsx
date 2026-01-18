@@ -10,7 +10,7 @@ const dancingScript = Dancing_Script({
 export default function Home() {
   return (
     <div className="animate-appear grow">
-      <div className="flex flex-col md:flex-row gap-4 md:gap-2">
+      <div className="flex flex-col md:flex-row gap-4 md:gap-2 text-amber-800/70">
         <img
           src="/cover.jpeg"
           alt="Logo"

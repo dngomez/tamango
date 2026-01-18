@@ -92,6 +92,20 @@ export default function Page() {
           }}
         />
       )}
+
+      <a
+        href="/carta.pdf"
+        download="carta-flores-del-tamango.pdf"
+        className={cn(
+          "flex flex-row gap-1 justify-center items-center grow",
+          "px-2 py-1 relative cursor-pointer bg-amber-800 text-light-fg",
+          "rounded-md transition-colors duration-300",
+          "hover:bg-light-fg hover:shadow-md hover:text-amber-800",
+          "mb-5",
+        )}
+      >
+        Descargar en PDF
+      </a>
     </div>
   )
 }
