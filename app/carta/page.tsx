@@ -30,7 +30,7 @@ export default function Page() {
       <div ref={scrollRef}></div>
       <div
         ref={buttonsRef}
-        className="flex flex-row justify-between gap-2 mb-2"
+        className="grid grid-cols-3 gap-2 md:grid-cols-6 mb-5"
       >
         {Object.keys(carta).map((category) => (
           <button
