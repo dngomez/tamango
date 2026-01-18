@@ -11,7 +11,7 @@ export function Producto({ product }: { product: Product }) {
       <Link
         href={`/carta/${normalizeText(product.name)}`}
         className={cn(
-          "flex flex-row justify-between bg-light-fg gap-4",
+          "flex flex-row justify-between bg-light-fg gap-1 md:gap-4",
           "text-amber-800 rounded-2xl shadow-md",
           "hover:shadow-teal-600 transition-all",
         )}
@@ -23,7 +23,7 @@ export function Producto({ product }: { product: Product }) {
             className="1w-28 md:w-40"
           />
         </div>
-        <div className="flex flex-col justify-center grow max-w-3/5 md:max-w-2/3 xl:max-w-4/5">
+        <div className="flex flex-col justify-center grow max-w-[60%] md:max-w-2/3 xl:max-w-4/5">
           <h1>{product.name}</h1>
           <p className="text-sm text-amber-800/50">
             {product.shortDescription}
