@@ -24,13 +24,13 @@ export function Producto({ product }: { product: Product }) {
             className="w-28 md:w-40"
           />
         </div>
-        <div className="flex flex-col justify-center grow max-w-[60%] md:max-w-2/3 xl:max-w-4/5">
+        <div className="flex flex-col justify-center grow max-w-[55%] md:max-w-2/3 xl:max-w-4/5">
           <h1>{product.name}</h1>
           <p className="text-xs text-amber-800/50 italic">
             {product.shortDescription}
           </p>
         </div>
-        <span className="flex flex-col justify-center mr-4">
+        <span className="flex flex-col justify-center mr-2 md:mr-4">
           ${product.price}
         </span>
       </Link>
