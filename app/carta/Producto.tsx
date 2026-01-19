@@ -14,18 +14,19 @@ export function Producto({ product }: { product: Product }) {
           "flex flex-row justify-between bg-light-fg gap-1 md:gap-4",
           "text-amber-800 rounded-2xl shadow-md",
           "hover:shadow-teal-600 transition-all",
+          "h-20 overflow-hidden",
         )}
       >
-        <div className="rounded-2xl overflow-hidden max-h-20 md:max-h-28 flex flex-col justify-center w-28 md:w-40">
+        <div className="overflow-hidden max-h-20 md:max-h-28 flex flex-col justify-center w-24 md:w-40">
           <img
             src={`/carta/${product.images[0]}`}
             alt={product.name}
-            className="1w-28 md:w-40"
+            className="w-28 md:w-40"
           />
         </div>
         <div className="flex flex-col justify-center grow max-w-[60%] md:max-w-2/3 xl:max-w-4/5">
           <h1>{product.name}</h1>
-          <p className="text-sm text-amber-800/50">
+          <p className="text-xs text-amber-800/50 italic">
             {product.shortDescription}
           </p>
         </div>

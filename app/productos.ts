@@ -29,7 +29,7 @@ export const PRODUCT_LIST = [
     shortDescription: "Description 3",
     description: [],
     price: 3000,
-    images: ["prod1.jpg"],
+    images: ["placeholder.jpg", "placeholder2.jpg"],
     category: "Calientes",
   },
   {
@@ -37,7 +37,7 @@ export const PRODUCT_LIST = [
     shortDescription: "Description 4",
     description: [],
     price: 3600,
-    images: ["prod2.jpg"],
+    images: ["placeholder.jpg", "placeholder2.jpg"],
     category: "Calientes",
   },
   {
@@ -45,7 +45,7 @@ export const PRODUCT_LIST = [
     shortDescription: "Description 5",
     description: [],
     price: 3800,
-    images: ["prod1.jpg"],
+    images: ["placeholder.jpg", "placeholder2.jpg"],
     category: "Calientes",
   },
   {
@@ -53,7 +53,7 @@ export const PRODUCT_LIST = [
     shortDescription: "Description 6",
     description: [],
     price: 3500,
-    images: ["prod2.jpg"],
+    images: ["placeholder.jpg", "placeholder2.jpg"],
     category: "Calientes",
   },
   {
@@ -61,7 +61,7 @@ export const PRODUCT_LIST = [
     shortDescription: "Description 7",
     description: [],
     price: 3800,
-    images: ["prod1.jpg"],
+    images: ["placeholder.jpg", "placeholder2.jpg"],
     category: "Calientes",
   },
   {
@@ -69,7 +69,7 @@ export const PRODUCT_LIST = [
     shortDescription: "Description 8",
     description: [],
     price: 3500,
-    images: ["prod2.jpg"],
+    images: ["placeholder.jpg", "placeholder2.jpg"],
     category: "Calientes",
   },
   {
@@ -85,7 +85,7 @@ export const PRODUCT_LIST = [
     shortDescription: "Description 10",
     description: [],
     price: 3200,
-    images: ["prod2.jpg"],
+    images: ["placeholder.jpg", "placeholder2.jpg"],
     category: "Frías",
   },
   {
@@ -93,7 +93,7 @@ export const PRODUCT_LIST = [
     shortDescription: "Description 11",
     description: [],
     price: 3600,
-    images: ["prod1.jpg"],
+    images: ["placeholder.jpg", "placeholder2.jpg"],
     category: "Frías",
   },
   {
@@ -101,7 +101,7 @@ export const PRODUCT_LIST = [
     shortDescription: "Description 12",
     description: [],
     price: 3800,
-    images: ["prod2.jpg"],
+    images: ["placeholder.jpg", "placeholder2.jpg"],
     category: "Frías",
   },
   {
@@ -109,7 +109,7 @@ export const PRODUCT_LIST = [
     shortDescription: "Description 12",
     description: [],
     price: 3200,
-    images: ["prod2.jpg"],
+    images: ["placeholder.jpg", "placeholder2.jpg"],
     category: "Frías",
   },
   {
@@ -117,7 +117,7 @@ export const PRODUCT_LIST = [
     shortDescription: "Description 12",
     description: [],
     price: 4000,
-    images: ["prod2.jpg"],
+    images: ["placeholder.jpg", "placeholder2.jpg"],
     category: "Frías",
   },
   {
@@ -125,7 +125,7 @@ export const PRODUCT_LIST = [
     shortDescription: "Lata de 350 cc",
     description: [],
     price: 2000,
-    images: ["prod2.jpg"],
+    images: ["placeholder.jpg", "placeholder2.jpg"],
     category: "Frías",
   },
   {
@@ -133,7 +133,7 @@ export const PRODUCT_LIST = [
     shortDescription: "Description 12",
     description: [],
     price: 2000,
-    images: ["prod2.jpg"],
+    images: ["placeholder.jpg", "placeholder2.jpg"],
     category: "Frías",
   },
   {
@@ -149,7 +149,7 @@ export const PRODUCT_LIST = [
     shortDescription: "Description 12",
     description: [],
     price: 5000,
-    images: ["prod2.jpg"],
+    images: ["placeholder.jpg", "placeholder2.jpg"],
     category: "Mate",
   },
   {
@@ -157,7 +157,7 @@ export const PRODUCT_LIST = [
     shortDescription: "Description 12",
     description: [],
     price: 500,
-    images: ["prod2.jpg"],
+    images: ["placeholder.jpg", "placeholder2.jpg"],
     category: "Mate",
   },
   {
@@ -169,7 +169,7 @@ export const PRODUCT_LIST = [
       "Infusiones: Menta, lavanda hierba buena, manzanilla, romero, chilco, rosa mosqueta, rodajas de limón, flor de Jamaica.",
     ],
     price: 2500,
-    images: ["prod2.jpg"],
+    images: ["placeholder.jpg", "placeholder2.jpg"],
     category: "Tetería",
   },
   {
@@ -181,7 +181,7 @@ export const PRODUCT_LIST = [
       "Infusiones: Menta, lavanda hierba buena, manzanilla, romero, chilco, rosa mosqueta, rodajas de limón, flor de Jamaica.",
     ],
     price: 3500,
-    images: ["prod2.jpg"],
+    images: ["placeholder.jpg", "placeholder2.jpg"],
     category: "Tetería",
   },
   {
@@ -189,7 +189,7 @@ export const PRODUCT_LIST = [
     shortDescription: "Description 12",
     description: [],
     price: 500,
-    images: ["prod2.jpg"],
+    images: ["placeholder.jpg", "placeholder2.jpg"],
     category: "Tetería",
   },
   {
@@ -197,7 +197,7 @@ export const PRODUCT_LIST = [
     shortDescription: "Description 12",
     description: [],
     price: 3000,
-    images: ["prod2.jpg"],
+    images: ["placeholder.jpg", "placeholder2.jpg"],
     category: "Postres",
   },
   {
@@ -221,7 +221,7 @@ export const PRODUCT_LIST = [
     shortDescription: "Description 12",
     description: [],
     price: 3000,
-    images: ["prod2.jpg"],
+    images: ["placeholder.jpg", "placeholder2.jpg"],
     category: "Postres",
   },
   {
@@ -229,7 +229,7 @@ export const PRODUCT_LIST = [
     shortDescription: "Description 12",
     description: [],
     price: 2000,
-    images: ["prod2.jpg"],
+    images: ["placeholder.jpg", "placeholder2.jpg"],
     category: "Postres",
   },
   {
@@ -240,7 +240,7 @@ export const PRODUCT_LIST = [
       "Queso fundido, morillas salteadas en mantequilla y verduras salteadas",
     ],
     price: 7500,
-    images: ["prod2.jpg"],
+    images: ["placeholder.jpg", "placeholder2.jpg"],
     category: "Sandwich",
   },
   {
@@ -259,7 +259,7 @@ export const PRODUCT_LIST = [
       "Humus de garbanzos y cilantro, mix de hojas verdes y tomate",
     ],
     price: 7000,
-    images: ["prod2.jpg"],
+    images: ["placeholder.jpg", "placeholder2.jpg"],
     category: "Sandwich",
   },
   {
@@ -267,7 +267,7 @@ export const PRODUCT_LIST = [
     shortDescription: "Queso fundido y jamón",
     description: ["Queso fundido y jamón"],
     price: 4500,
-    images: ["prod2.jpg"],
+    images: ["placeholder.jpg", "placeholder2.jpg"],
     category: "Sandwich",
   },
 ]

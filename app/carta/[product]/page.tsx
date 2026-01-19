@@ -41,7 +41,7 @@ export default async function Page({
             {product?.name}
           </h1>
           {product?.description.map((d, i) => (
-            <p key={i} className="text-center mt-3">
+            <p key={i} className="text-center mt-3 text-amber-800/70">
               {d}
             </p>
           ))}
