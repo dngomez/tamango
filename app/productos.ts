@@ -10,7 +10,7 @@ export type Product = {
 export const PRODUCT_LIST = [
   {
     name: "Espresso",
-    shortDescription: "Description 1",
+    shortDescription: "",
     description: [],
     price: 2300,
     images: ["espresso.jpeg", "espresso2.jpeg"],
@@ -18,7 +18,7 @@ export const PRODUCT_LIST = [
   },
   {
     name: "Americano",
-    shortDescription: "Description 2",
+    shortDescription: "",
     description: [],
     price: 2500,
     images: ["americano.jpeg"],
@@ -26,7 +26,7 @@ export const PRODUCT_LIST = [
   },
   {
     name: "Cappuccino",
-    shortDescription: "Description 3",
+    shortDescription: "",
     description: [],
     price: 3000,
     images: ["placeholder.jpg", "placeholder2.jpg"],
@@ -34,7 +34,7 @@ export const PRODUCT_LIST = [
   },
   {
     name: "Latte",
-    shortDescription: "Description 4",
+    shortDescription: "",
     description: [],
     price: 3600,
     images: ["placeholder.jpg", "placeholder2.jpg"],
@@ -42,15 +42,15 @@ export const PRODUCT_LIST = [
   },
   {
     name: "Mokaccino",
-    shortDescription: "Description 5",
+    shortDescription: "",
     description: [],
     price: 3800,
-    images: ["placeholder.jpg", "placeholder2.jpg"],
+    images: ["moka.jpeg"],
     category: "Calientes",
   },
   {
     name: "Affogato",
-    shortDescription: "Description 6",
+    shortDescription: "",
     description: [],
     price: 3500,
     images: ["placeholder.jpg", "placeholder2.jpg"],
@@ -58,7 +58,7 @@ export const PRODUCT_LIST = [
   },
   {
     name: "Chocolate Caliente",
-    shortDescription: "Description 7",
+    shortDescription: "",
     description: [],
     price: 3800,
     images: ["placeholder.jpg", "placeholder2.jpg"],
@@ -66,7 +66,7 @@ export const PRODUCT_LIST = [
   },
   {
     name: "Chocolate Caliente para niños",
-    shortDescription: "Description 8",
+    shortDescription: "",
     description: [],
     price: 3500,
     images: ["placeholder.jpg", "placeholder2.jpg"],
@@ -74,7 +74,7 @@ export const PRODUCT_LIST = [
   },
   {
     name: "Café Helado",
-    shortDescription: "Description 9",
+    shortDescription: "",
     description: [],
     price: 4200,
     images: ["cafe_helado.jpeg"],
@@ -82,7 +82,7 @@ export const PRODUCT_LIST = [
   },
   {
     name: "Americano Frío",
-    shortDescription: "Description 10",
+    shortDescription: "",
     description: [],
     price: 3200,
     images: ["placeholder.jpg", "placeholder2.jpg"],
@@ -90,7 +90,7 @@ export const PRODUCT_LIST = [
   },
   {
     name: "Latte Frío",
-    shortDescription: "Description 11",
+    shortDescription: "",
     description: [],
     price: 3600,
     images: ["placeholder.jpg", "placeholder2.jpg"],
@@ -98,7 +98,7 @@ export const PRODUCT_LIST = [
   },
   {
     name: "Moka Frío",
-    shortDescription: "Description 12",
+    shortDescription: "",
     description: [],
     price: 3800,
     images: ["placeholder.jpg", "placeholder2.jpg"],
@@ -106,7 +106,7 @@ export const PRODUCT_LIST = [
   },
   {
     name: "Jugo Natural",
-    shortDescription: "Description 12",
+    shortDescription: "",
     description: [],
     price: 3200,
     images: ["placeholder.jpg", "placeholder2.jpg"],
@@ -114,7 +114,7 @@ export const PRODUCT_LIST = [
   },
   {
     name: "Batidos",
-    shortDescription: "Description 12",
+    shortDescription: "",
     description: [],
     price: 4000,
     images: ["placeholder.jpg", "placeholder2.jpg"],
@@ -130,7 +130,7 @@ export const PRODUCT_LIST = [
   },
   {
     name: "Agua Mineral",
-    shortDescription: "Description 12",
+    shortDescription: "",
     description: [],
     price: 2000,
     images: ["placeholder.jpg", "placeholder2.jpg"],
@@ -138,7 +138,7 @@ export const PRODUCT_LIST = [
   },
   {
     name: "Mate con Pava",
-    shortDescription: "Description 12",
+    shortDescription: "",
     description: [],
     price: 2500,
     images: ["mate_con_pava.jpeg", "mate_con_pava2.jpeg"],
@@ -146,7 +146,7 @@ export const PRODUCT_LIST = [
   },
   {
     name: "Mate Pomelo",
-    shortDescription: "Description 12",
+    shortDescription: "",
     description: [],
     price: 5000,
     images: ["placeholder.jpg", "placeholder2.jpg"],
@@ -154,7 +154,7 @@ export const PRODUCT_LIST = [
   },
   {
     name: "Recarga de yerba",
-    shortDescription: "Description 12",
+    shortDescription: "",
     description: [],
     price: 500,
     images: ["placeholder.jpg", "placeholder2.jpg"],
@@ -186,7 +186,7 @@ export const PRODUCT_LIST = [
   },
   {
     name: "Porción de Miel",
-    shortDescription: "Description 12",
+    shortDescription: "",
     description: [],
     price: 500,
     images: ["placeholder.jpg", "placeholder2.jpg"],
@@ -194,7 +194,7 @@ export const PRODUCT_LIST = [
   },
   {
     name: "Kuchen",
-    shortDescription: "Description 12",
+    shortDescription: "",
     description: [],
     price: 3000,
     images: ["placeholder.jpg", "placeholder2.jpg"],
@@ -202,7 +202,7 @@ export const PRODUCT_LIST = [
   },
   {
     name: "Pie de Limón",
-    shortDescription: "Description 12",
+    shortDescription: "",
     description: [],
     price: 3300,
     images: ["pie_de_limon.jpeg"],
@@ -210,7 +210,7 @@ export const PRODUCT_LIST = [
   },
   {
     name: "Cheesecake",
-    shortDescription: "Description 12",
+    shortDescription: "",
     description: [],
     price: 3800,
     images: ["cheesecake.jpeg"],
@@ -218,7 +218,7 @@ export const PRODUCT_LIST = [
   },
   {
     name: "Panqueque Manjar",
-    shortDescription: "Description 12",
+    shortDescription: "",
     description: [],
     price: 3000,
     images: ["placeholder.jpg", "placeholder2.jpg"],
@@ -226,7 +226,7 @@ export const PRODUCT_LIST = [
   },
   {
     name: "Trozo de Queque",
-    shortDescription: "Description 12",
+    shortDescription: "",
     description: [],
     price: 2000,
     images: ["placeholder.jpg", "placeholder2.jpg"],
