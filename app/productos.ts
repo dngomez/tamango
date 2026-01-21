@@ -77,7 +77,7 @@ export const PRODUCT_LIST = [
     shortDescription: "",
     description: [],
     price: 4200,
-    images: ["cafe_helado.jpeg"],
+    images: ["cafe_helado.jpeg", "cafe_helado2.jpeg"],
     category: "Frías",
   },
   {
