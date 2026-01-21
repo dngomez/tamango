@@ -10,12 +10,14 @@ const dancingScript = Dancing_Script({
 export default function Home() {
   return (
     <div className="animate-appear grow">
-      <div className="flex flex-col md:flex-row gap-4 md:gap-2 text-amber-800/70">
-        <img
-          src="/cover.jpg"
-          alt="Logo"
-          className="w-1/2 rounded-2xl order-2 md:order-1 mx-auto"
-        />
+      <div className="flex flex-col md:flex-row gap-4 md:gap-2 xl:gap-6 text-amber-800/70 xl:max-w-2/3 xl:mx-auto">
+        <div className="max-w-1/2 order-2 md:order-1 mx-auto aspect-square flex items-center">
+          <img
+            src="/cover_square.jpeg"
+            alt="Logo"
+            className="w-full rounded-2xl"
+          />
+        </div>
         <div className="flex flex-col justify-center grow text-center gap-4 order-1 md:order-2">
           <h1
             className={cn(
