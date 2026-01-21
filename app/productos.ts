@@ -77,7 +77,7 @@ export const PRODUCT_LIST = [
     shortDescription: "",
     description: [],
     price: 4200,
-    images: ["cafe_helado.jpeg", "cafe_helado2.jpeg"],
+    images: ["cafe_helado.jpeg"],
     category: "Frías",
   },
   {
@@ -101,7 +101,7 @@ export const PRODUCT_LIST = [
     shortDescription: "",
     description: [],
     price: 3800,
-    images: ["placeholder.jpg", "placeholder2.jpg"],
+    images: ["moka_frio.jpeg"],
     category: "Frías",
   },
   {

@@ -12,7 +12,7 @@ export default function Home() {
     <div className="animate-appear grow">
       <div className="flex flex-col md:flex-row gap-4 md:gap-2 text-amber-800/70">
         <img
-          src="/cover.jpeg"
+          src="/cover.jpg"
           alt="Logo"
           className="w-1/2 rounded-2xl order-2 md:order-1 mx-auto"
         />
@@ -32,10 +32,9 @@ export default function Home() {
             <h1 className="text-amber-800 text-xl md:text-3xl font-extrabold uppercase tracking-widest mt-3 flex flex-row gap-2 justify-center">
               Nuestro Horario <FaClock />
             </h1>
-            <p>Martes a Viernes</p>
-            <p>8:00 a 13:00 y 15:00 a 20:00</p>
-            <p>Sábado y Domingo</p>
-            <p>Horario continuo de 8:00 a 19:00</p>
+            <p>Martes a Viernes de 8:00 a 13:00 y 15:00 a 20:00</p>
+            <p>Sábado horario continuo de 8:00 a 19:00</p>
+            <p>Domingo horario continuo de 8:00 a 18:00</p>
           </div>
           <div className="flex flex-col gap-1 text-center text-lg md:text-2xl">
             <h1 className="text-amber-800 text-xl md:text-3xl font-extrabold uppercase tracking-widest mt-3 flex flex-row gap-2 justify-center">
