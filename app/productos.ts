@@ -149,7 +149,7 @@ export const PRODUCT_LIST = [
     shortDescription: "",
     description: [],
     price: 5000,
-    images: ["placeholder.jpg", "placeholder2.jpg"],
+    images: ["mate_pomelo.jpeg", "mate_pomelo2.jpeg"],
     category: "Mate",
   },
   {
@@ -197,7 +197,7 @@ export const PRODUCT_LIST = [
     shortDescription: "",
     description: [],
     price: 3000,
-    images: ["placeholder.jpg", "placeholder2.jpg"],
+    images: ["kuchen.jpeg"],
     category: "Postres",
   },
   {
