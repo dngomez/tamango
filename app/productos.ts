@@ -117,7 +117,7 @@ export const PRODUCT_LIST = [
     shortDescription: "",
     description: [],
     price: 4000,
-    images: ["placeholder.jpg", "placeholder2.jpg"],
+    images: ["batido.jpeg"],
     category: "Frías",
   },
   {
