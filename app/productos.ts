@@ -29,7 +29,7 @@ export const PRODUCT_LIST = [
     shortDescription: "",
     description: [],
     price: 3000,
-    images: ["placeholder.jpg", "placeholder2.jpg"],
+    images: ["capuccino.jpeg"],
     category: "Calientes",
   },
   {
@@ -229,7 +229,7 @@ export const PRODUCT_LIST = [
     shortDescription: "",
     description: [],
     price: 2000,
-    images: ["placeholder.jpg", "placeholder2.jpg"],
+    images: ["queque.jpeg"],
     category: "Postres",
   },
   {
