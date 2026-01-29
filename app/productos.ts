@@ -37,7 +37,7 @@ export const PRODUCT_LIST = [
     shortDescription: "",
     description: [],
     price: 3600,
-    images: ["placeholder.jpg", "placeholder2.jpg"],
+    images: ["latte_sq_1.jpeg"],
     category: "Calientes",
   },
   {
@@ -53,7 +53,7 @@ export const PRODUCT_LIST = [
     shortDescription: "",
     description: [],
     price: 3800,
-    images: ["placeholder.jpg", "placeholder2.jpg"],
+    images: ["chocolate_caliente_sq_1.jpeg"],
     category: "Calientes",
   },
   {
@@ -66,18 +66,18 @@ export const PRODUCT_LIST = [
   },
   {
     name: "Café Helado",
-    shortDescription: "",
-    description: [],
+    shortDescription: "Helado de vainilla, leche, café y crema.",
+    description: ["Helado de vainilla, leche (puede ser sin lactosa, vegetal o entera), café y crema."],
     price: 4200,
-    images: ["cafe_helado_sq_1.jpeg", "cafe_helado_sq_2.jpeg"],
+    images: ["cafe_helado_sq_2.jpeg", "cafe_helado_sq_1.jpeg"],
     category: "Frías",
   },
   {
     name: "Affogato",
-    shortDescription: "",
-    description: [],
+    shortDescription: "Helado de vainilla ahogado en un shot de espresso doble.",
+    description: ["Helado de vainilla ahogado en un shot de espresso doble"],
     price: 3500,
-    images: ["placeholder.jpg", "placeholder2.jpg"],
+    images: ["affogato_sq_1.jpeg"],
     category: "Frías",
   },
   {
@@ -106,16 +106,16 @@ export const PRODUCT_LIST = [
   },
   {
     name: "Jugo Natural",
-    shortDescription: "",
-    description: [],
+    shortDescription: "Frutilla, frambuesa, piña",
+    description: ["Jugo natural de frutilla, frambuesa o piña"],
     price: 3200,
     images: ["placeholder.jpg", "placeholder2.jpg"],
     category: "Frías",
   },
   {
     name: "Batidos",
-    shortDescription: "",
-    description: [],
+    shortDescription: "Frutilla, frambuesa o cookies",
+    description: ["Batidos de leche, frutas y azúcar o galletas y crema"],
     price: 4000,
     images: ["batido_sq_1.jpeg"],
     category: "Frías",
@@ -130,8 +130,8 @@ export const PRODUCT_LIST = [
   },
   {
     name: "Agua Mineral",
-    shortDescription: "",
-    description: [],
+    shortDescription: "Con y sin gas",
+    description: ["Botella de agua con o sin gas."],
     price: 2000,
     images: ["placeholder.jpg", "placeholder2.jpg"],
     category: "Frías",
@@ -162,9 +162,9 @@ export const PRODUCT_LIST = [
   },
   {
     name: "Tetera Individual",
-    shortDescription: "Tetera de 500cc.",
+    shortDescription: "Tetera de 300cc.",
     description: [
-      "Tetera de 500cc.",
+      "Tetera de 300cc.",
       "Tipos de té: Nego, negro con canela, chai, verde, jazmín.",
       "Infusiones: Menta, lavanda hierba buena, manzanilla, romero, chilco, rosa mosqueta, rodajas de limón, flor de Jamaica.",
     ],
@@ -174,14 +174,14 @@ export const PRODUCT_LIST = [
   },
   {
     name: "Tetera Para Compartir",
-    shortDescription: "Tetera de 1 litro.",
+    shortDescription: "Tetera de 600 cc.",
     description: [
-      "Tetera de 1 litro.",
+      "Tetera de 600cc.",
       "Tipos de té: Nego, negro con canela, chai, verde, jazmín.",
       "Infusiones: Menta, lavanda hierba buena, manzanilla, romero, chilco, rosa mosqueta, rodajas de limón, flor de Jamaica.",
     ],
     price: 3500,
-    images: ["placeholder.jpg", "placeholder2.jpg"],
+    images: ["tetera_para_compartir_sq_1.jpeg"],
     category: "Tetería",
   },
   {
@@ -277,5 +277,13 @@ export const PRODUCT_LIST = [
     price: 4500,
     images: ["placeholder.jpg", "placeholder2.jpg"],
     category: "Sandwich",
+  },
+  {
+    name: "Paila de huevos",
+    shortDescription: "Paila con 3 huevos revueltos",
+    description: ["Paila con 3 huevos revueltos"],
+    price: 4500,
+    images: ["paila_huevos_sq_1.jpeg"],
+    category: "Desayuno",
   },
 ]

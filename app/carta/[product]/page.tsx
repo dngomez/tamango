@@ -1,26 +1,22 @@
-import { PRODUCT_LIST } from "@/app/productos"
-import { normalizeText } from "@/lib/normalizeText"
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel"
+"use client"
 
-export default async function Page({
-  params,
-}: {
-  params: Promise<{ product: string }>
-}) {
-  const { product: currentProduct } = await params
+import { PRODUCT_LIST } from "@/app/productos"
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel"
+import { normalizeText } from "@/lib/normalizeText"
+import { cn } from "@/lib/utils"
+import { useParams } from "next/navigation"
+import { useState } from "react"
+
+export default function Page() {
+  const params = useParams()
+  const { product: currentProduct } = params
   const product = PRODUCT_LIST.find(
     (p) => normalizeText(p.name) === currentProduct,
   )
 
   return (
-    <div className="animate-appear">
-      <div className="max-w-3/4 md:max-w-2/3 rounded-2xl mx-auto bg-light-fg shadow-lg">
+    <div className="animate-appear w-3/4 lg:w-7/12">
+      <div className="w-3/4 lg:w-7/12 rounded-2xl mx-auto bg-light-fg shadow-lg">
         <Carousel>
           <CarouselContent>
             {product?.images.map((image, i) => (

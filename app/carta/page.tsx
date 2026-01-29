@@ -30,7 +30,7 @@ export default function Page() {
       <div ref={scrollRef}></div>
       <div
         ref={buttonsRef}
-        className="grid grid-cols-3 gap-2 md:grid-cols-6 mb-5"
+        className="grid grid-cols-4 gap-2 md:grid-cols-7 mb-5"
       >
         {Object.keys(carta).map((category) => (
           <button
