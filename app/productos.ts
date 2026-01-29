@@ -13,7 +13,7 @@ export const PRODUCT_LIST = [
     shortDescription: "",
     description: [],
     price: 2300,
-    images: ["espresso.jpeg", "espresso2.jpeg"],
+    images: ["espresso_sq_1.jpeg", "espresso_sq_2.jpeg"],
     category: "Calientes",
   },
   {
@@ -21,7 +21,7 @@ export const PRODUCT_LIST = [
     shortDescription: "",
     description: [],
     price: 2500,
-    images: ["americano.jpeg"],
+    images: ["americano_sq_1.jpeg"],
     category: "Calientes",
   },
   {
@@ -29,7 +29,7 @@ export const PRODUCT_LIST = [
     shortDescription: "",
     description: [],
     price: 3000,
-    images: ["capuccino.jpeg"],
+    images: ["capuccino_sq_1.jpeg"],
     category: "Calientes",
   },
   {
@@ -45,15 +45,7 @@ export const PRODUCT_LIST = [
     shortDescription: "",
     description: [],
     price: 3800,
-    images: ["moka.jpeg"],
-    category: "Calientes",
-  },
-  {
-    name: "Affogato",
-    shortDescription: "",
-    description: [],
-    price: 3500,
-    images: ["placeholder.jpg", "placeholder2.jpg"],
+    images: ["moka_sq_1.jpeg"],
     category: "Calientes",
   },
   {
@@ -77,7 +69,15 @@ export const PRODUCT_LIST = [
     shortDescription: "",
     description: [],
     price: 4200,
-    images: ["cafe_helado.jpeg"],
+    images: ["cafe_helado_sq_1.jpeg", "cafe_helado_sq_2.jpeg"],
+    category: "Frías",
+  },
+  {
+    name: "Affogato",
+    shortDescription: "",
+    description: [],
+    price: 3500,
+    images: ["placeholder.jpg", "placeholder2.jpg"],
     category: "Frías",
   },
   {
@@ -101,7 +101,7 @@ export const PRODUCT_LIST = [
     shortDescription: "",
     description: [],
     price: 3800,
-    images: ["moka_frio.jpeg"],
+    images: ["moka_frio_sq_1.jpeg"],
     category: "Frías",
   },
   {
@@ -117,7 +117,7 @@ export const PRODUCT_LIST = [
     shortDescription: "",
     description: [],
     price: 4000,
-    images: ["batido.jpeg"],
+    images: ["batido_sq_1.jpeg"],
     category: "Frías",
   },
   {
@@ -141,7 +141,7 @@ export const PRODUCT_LIST = [
     shortDescription: "",
     description: [],
     price: 2500,
-    images: ["mate_con_pava.jpeg", "mate_con_pava2.jpeg"],
+    images: ["mate_con_pava_sq_1.jpeg", "mate_con_pava_sq_2.jpeg"],
     category: "Mate",
   },
   {
@@ -149,7 +149,7 @@ export const PRODUCT_LIST = [
     shortDescription: "",
     description: [],
     price: 5000,
-    images: ["mate_pomelo.jpeg", "mate_pomelo2.jpeg"],
+    images: ["mate_pomelo_sq_1.jpeg", "mate_pomelo_sq_2.jpeg"],
     category: "Mate",
   },
   {
@@ -197,7 +197,7 @@ export const PRODUCT_LIST = [
     shortDescription: "",
     description: [],
     price: 3000,
-    images: ["kuchen.jpeg"],
+    images: ["kuchen_sq_1.jpeg"],
     category: "Postres",
   },
   {
@@ -205,7 +205,7 @@ export const PRODUCT_LIST = [
     shortDescription: "",
     description: [],
     price: 3300,
-    images: ["pie_de_limon.jpeg"],
+    images: ["pie_de_limon_sq_1.jpeg", "pie_de_limon_sq_2.jpeg"],
     category: "Postres",
   },
   {
@@ -213,7 +213,7 @@ export const PRODUCT_LIST = [
     shortDescription: "",
     description: [],
     price: 3800,
-    images: ["cheesecake.jpeg"],
+    images: ["cheesecake_sq_1.jpeg", "cheesecake_sq_2.jpeg"],
     category: "Postres",
   },
   {
@@ -229,7 +229,15 @@ export const PRODUCT_LIST = [
     shortDescription: "",
     description: [],
     price: 2000,
-    images: ["queque.jpeg"],
+    images: ["queque_sq_1.jpeg"],
+    category: "Postres",
+  },
+  {
+    name: "Rollito de Canela",
+    shortDescription: "",
+    description: [],
+    price: 1200,
+    images: ["rollito_canela_sq_1.jpeg"],
     category: "Postres",
   },
   {
@@ -248,7 +256,7 @@ export const PRODUCT_LIST = [
     shortDescription: "Pollo a la plancha, mix de hojas verdes, pesto y tomate",
     description: ["Pollo a la plancha, mix de hojas verdes, pesto y tomate"],
     price: 7000,
-    images: ["ciruelillo.jpeg"],
+    images: ["ciruelillo_sq_1.jpeg"],
     category: "Sandwich",
   },
   {

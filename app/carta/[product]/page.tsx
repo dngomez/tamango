@@ -33,8 +33,8 @@ export default async function Page({
               </CarouselItem>
             ))}
           </CarouselContent>
-          <CarouselPrevious className="text-amber-800 border-amber-800 hover:bg-amber-800 hover:text-light-bg disabled:text-gray-500 disabled:border-gray-500" />
-          <CarouselNext className="text-amber-800 border-amber-800 hover:bg-amber-800 hover:text-light-bg disabled:text-gray-500 disabled:border-gray-500" />
+          <CarouselPrevious className="text-amber-800 border-amber-800 hover:bg-amber-800 hover:text-light-bg disabled:hidden" />
+          <CarouselNext className="text-amber-800 border-amber-800 hover:bg-amber-800 hover:text-light-bg disabled:hidden" />
         </Carousel>
         <div className="px-4 pb-5">
           <h1 className="text-amber-800 font-bold uppercase tracking-widest text-center mt-3">
